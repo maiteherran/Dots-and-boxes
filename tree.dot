@@ -1,0 +1,22 @@
+digraph G{
+1 -> 2
+2 [label = "(box: 00, direction: EAST)
+ -1" , shape = oval]
+2 [color= red , style = filled ]
+1 [label = "(box: 00, direction: NORTH)
+ 0" , shape = box]
+3 -> 1
+1 [label = "(box: 00, direction: NORTH)
+ -1" , shape = box]
+4 -> 5
+5 [label = "(box: 00, direction: NORTH)
+ -1" , shape = oval]
+5 [color= red , style = filled ]
+4 [label = "(box: 00, direction: EAST)
+ 0" , shape = box]
+3 -> 4
+4 [label = "(box: 00, direction: EAST)
+ -1" , shape = box]
+1 [color= red , style = filled ]
+3 [label = "START 1" shape = oval, color = red, style = filled ]
+}
