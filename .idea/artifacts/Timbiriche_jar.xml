@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="Timbiriche:jar">
-    <output-path>$PROJECT_DIR$/classes/artifacts/Timbiriche_jar</output-path>
-    <root id="archive" name="Timbiriche.jar">
-      <element id="module-output" name="Timbiriche" />
-    </root>
-  </artifact>
-</component>
